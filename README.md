@@ -14,7 +14,7 @@ Simple Shell is a Holberton School pair project. The general goal of the project
 
 ## Installation
 ```
-git clone https://github.com/patrickdeyoreo/simple_shell.git
+git clone https://github.com/DukeMavor/simple_shell.git
 cd simple_shell
 gcc *.c -o hsh
 ```
@@ -127,12 +127,10 @@ $
 ```
 ## Tasks
 ### Mandatory:
-1. README, man, AUTHORS
-- Write a README
-- Write a man for your shell.
-- You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository.
+0. Betty would be proud
+- Write a beautiful code that passes the Betty checks
 
-2. Simple shell 0.1
+1. Simple shell 0.1
 - Write a UNIX command line interpreter.
 - Your Shell should:
 Display a prompt and wait for the user to type a command. A command line always ends with a new line.
@@ -149,25 +147,23 @@ handle special characters : ", ', `, \, *, &, #
 be able to move the cursor
 handle commands with arguments
 
-3. Simple shell 0.2
+2. Simple shell 0.2
 - Handle command lines with arguments
 
-4. Simple shell 0.3
+3. Simple shell 0.3
 - Handle the PATH
 
-5. Simple shell 0.4
+4. Simple shell 0.4
 - Implement the exit built-in, that exits the shell
 - Usage: exit
 - You don’t have to handle any argument to the built-in exit
 
-6. Simple shell 1.0
+5. Simple shell 1.0
 - Implement the env built-in, that prints the current environment
 
-7. Write a blogpost "What happens when you type ls -l in the shell"
-
 ### Advanced
-1. Test suite 
-- Contribute to a test suite for your shell
+1. Simple shell 0.1.1 
+- Write your own getline function
 
 2. Simple shell 0.2.1
 - Write your own strtok function
