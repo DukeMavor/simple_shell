@@ -186,7 +186,7 @@ handle commands with arguments
 8. alias 
 - Implement the alias builtin command
 
-19. Comments
+9. Comments
 - Handle comments (#)
 
 10. help 
